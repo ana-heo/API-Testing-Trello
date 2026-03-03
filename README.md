@@ -1,12 +1,10 @@
 # Trello API Testing 
 
-Manual API testing project for Trello REST API.
+Manual API testing project for Trello REST API using Postman.
 
 ## Overview
 
 Demonstrates manual testing of the following endpoints:
-
-To validate the correctness, reliability, and security of Trello API endpoints including:
 
 - GET /members/me/boards
 - POST /boards
@@ -32,8 +30,13 @@ The collection validates:
 - Response structure
 - Required JSON fields
 
-## What Was Tested
+## Tools Used
 
-- Authentication behavior
-- HTTP status codes
-- Response time
+- Postman
+- Trello REST API
+- GitHub
+
+## Author
+
+Manual QA Engineer Anastasiya Georganova
+API Testing | Postman | Functional Testing
