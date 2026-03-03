@@ -36,7 +36,4 @@ The collection validates:
 - Trello REST API
 - GitHub
 
-## Author
-
-Manual QA Engineer Anastasiya Georganova
 API Testing | Postman | Functional Testing
