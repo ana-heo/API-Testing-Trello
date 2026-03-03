@@ -6,7 +6,12 @@ Manual API testing project for Trello REST API.
 
 Demonstrates manual testing of the following endpoints:
 
-GET/POST/DELETE/PUT
+To validate the correctness, reliability, and security of Trello API endpoints including:
+
+- GET /members/me/boards
+- POST /boards
+- PUT /boards/{id}
+- DELETE /boards/{id}
 
 The goal is to ensure that all endpoints work correctly, returning accurate data.
 
