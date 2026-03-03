@@ -2,9 +2,9 @@
 
 Manual API testing project for Trello REST API.
 
-## Project Overview
+## Overview
 
-This project demonstrates manual testing of the following endpoints:
+Demonstrates manual testing of the following endpoints:
 
 GET/POST/DELETE/PUT
 
