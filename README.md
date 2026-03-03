@@ -26,6 +26,12 @@ They are passed as query parameters:
 
 https://api.trello.com/1/members/me/boards?key={{myKey}}&token={{myToken}}
 
+The collection validates:
+- Authentication (API key & token)
+- HTTP status codes
+- Response structure
+- Required JSON fields
+
 ## What Was Tested
 
 - Authentication behavior
