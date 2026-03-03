@@ -1,0 +1,16 @@
+JavaScript
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("Response time is less than 800ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(800);
+});
+pm.test("Verify that 'name' object is 'string'", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.name).to.be.a('string');
+});
+pm.test("Verify that 'id' object is 'string'", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a('string');
+});
